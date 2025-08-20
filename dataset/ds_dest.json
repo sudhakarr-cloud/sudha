@@ -1,0 +1,24 @@
+{
+	"name": "ds_dest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kavukavu",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "testaa/dest",
+				"fileSystem": "test22"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

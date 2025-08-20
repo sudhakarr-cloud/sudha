@@ -1,0 +1,17 @@
+{
+	"name": "sudhakar97044",
+	"properties": {
+		"globalParameters": {
+			"p1": {
+				"type": "int",
+				"value": 17
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0a949309-c63d-46c0-9562-e03b67c51077",
+		"tenantId": "712bc818-7b16-4800-9bf4-c28dd5a8a191"
+	}
+}
